@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\World Files">
+      <UniqueIdentifier>{1480be7d-9c67-454a-8eca-07ff39cae78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ops files">
+      <UniqueIdentifier>{9ad09c47-46c0-48c6-8b44-947682196914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Ref Files">
+      <UniqueIdentifier>{f43ccae2-4698-4238-9113-b7f08a79caa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Data Files">
+      <UniqueIdentifier>{4a8dee4e-e724-412d-b11b-a1a7a2d6de96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\World Files\Area Data Files">
+      <UniqueIdentifier>{149f9aa2-9ff1-4ac1-8af7-24b697cc5ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\World Files\Entity Data Files">
+      <UniqueIdentifier>{7e68fb0e-f396-4342-994a-9e246de26ff8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ops.cpp">
+      <Filter>Source Files\ops files</Filter>
+    </ClCompile>
+    <ClCompile Include="commands.cpp">
+      <Filter>Source Files\ops files</Filter>
+    </ClCompile>
+    <ClCompile Include="processors.cpp">
+      <Filter>Source Files\ops files</Filter>
+    </ClCompile>
+    <ClCompile Include="interactions.cpp">
+      <Filter>Source Files\ops files</Filter>
+    </ClCompile>
+    <ClCompile Include="appearance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spells.cpp">
+      <Filter>Source Files\ops files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="data.wld">
+      <Filter>Resource Files\Data Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialog.wld">
+      <Filter>Resource Files\Data Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dataSpec.wlsf">
+      <Filter>Resource Files\Ref Files</Filter>
+    </Text>
+    <Text Include="wladSpec.wlsf">
+      <Filter>Resource Files\Ref Files</Filter>
+    </Text>
+    <Text Include="starter.wld">
+      <Filter>Resource Files\Data Files</Filter>
+    </Text>
+    <Text Include="tutorial.wlad">
+      <Filter>Resource Files\World Files\Area Data Files</Filter>
+    </Text>
+    <Text Include="vistest.wlad">
+      <Filter>Resource Files\World Files\Area Data Files</Filter>
+    </Text>
+    <Text Include="tutorial.wled">
+      <Filter>Resource Files\World Files\Entity Data Files</Filter>
+    </Text>
+    <Text Include="vistest.wled">
+      <Filter>Resource Files\World Files\Entity Data Files</Filter>
+    </Text>
+    <Text Include="connections.wlad">
+      <Filter>Resource Files\World Files</Filter>
+    </Text>
+    <Text Include="Text.txt">
+      <Filter>Resource Files\Ref Files</Filter>
+    </Text>
+    <Text Include="versions.txt">
+      <Filter>Resource Files\Ref Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="npcs.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="items.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="commands.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="commands.wlhf">
+      <Filter>Resource Files\Ref Files</Filter>
+    </None>
+    <None Include="envs.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="inventory.wld">
+      <Filter>Resource Files\Data Files</Filter>
+    </None>
+    <None Include="currQuests.wld">
+      <Filter>Resource Files\Data Files</Filter>
+    </None>
+    <None Include="quests.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="spells.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ditree.wldf">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

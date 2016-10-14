@@ -1,0 +1,59 @@
+
++++++++++++++++++++++++++++++++++++++
++ .WLAD FILE FORMAT                 +
++ Specifying Witch Legend Area Data +
++++++++++++++++++++++++++++++++++++++
+
+----------------
+Contents of file
+----------------
+
+Constitutes Three Parts: Header, GameGrid, Definitions
+
+Header Contents:
+	- LIN declaration, number of lines in file
+	- YST declaration, the Y-coordinate on the GameGrid of the spawnpoint
+	- XST declaration, the X-coordinate on the GameGrid of the spawnpoint
+
+GameGrid:
+	The GameGrid is an ASCII map of the area, it consists of a shape constructed of '0', these represent walls,
+	'L', these represent locked doors, and 'p', this represents the portal to the next (or previous) level.
+	Every column of the GameGrid is preceeded by a line number, in three digit form, as in "001" or "078" or "999",
+	followed by a space.
+	Within the boundaries of the GameGrid is any number of characters, each char represents an item within the level,
+	what the char represents is defined in the definitions section.
+	The GameGrid can have a maximum height of 999 rows and a maximum width of 4090 columns
+
+Definitions:
+	For every custom character on the GameGrid, a definition must be made in this section, see the Syntax below
+
+--------------------------
+Defining Map Object Syntax
+--------------------------
+
+"RE"
+Identifier
+[space]
+Name
+[P]assable/[I]mpassable/[D]oor
+[T]ransparent/[O]paque
+[A]ggro/[P]assive/[N]ot applicable
+[I]tem/[C]haracter (Entity)/[E]nviroment
+[F]ront/[B]ack/[L]eft/[R]ight/[N]ot applicable
+[V]isible/[I]nvisible
+
+For example, if I wished to create a precious gemstone that could be picked up by the player,
+and it is invisible to begin with, and it is represented by the letter 'R' on the GameGrid,
+the definition would be as follows:
+
+RER a precious gemstonePANINI
+
+---------------
+Notes on format
+---------------
+
+	- Each LINE can only be spread over ONE LINE, no newlines may be used breaking lines up
+	- Every line MUST be prefixed with a three character declaration, otherwise it will be disregarded
+	  - This means that any number of blank lines can be added
+	  - There is no syntax for comments, as any line without declaration will not be processed
+	- The GameGrid CANNOT contain the character '¦' as this is reserved for processing visibility

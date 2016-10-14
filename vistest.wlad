@@ -1,0 +1,27 @@
++--------+
+| HEADER |
++--------+
+
+XST HEAD 4
+YST HEAD 002
+
++----------+
+| GameGrid |
++----------+
+
+BEGINGAMEGRID
+000 000000
+001 000000
+002 000 00
+003 0F000F
+004 0FN 0F
+005 0F000F
+006 000000
+ENDGAMEGRID
+
++-------------+
+| DEFINITIONS |
++-------------+
+
+REF genMarker FPANINV
+REN genMarker funIMNCNV

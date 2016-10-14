@@ -1,0 +1,57 @@
+==]COMMAND HELP[==
+
+command 
+
+GENERAL COMMANDS:
+
++walk <direction> {entity}        - 01 - Moves the character
++sneak <direction> {entity}       - 03 - Stealthily moves the character
++run <direction> {entity}         - 03 - Quickly moves the character
++open <entity>                    - 01 - Opens an entity
++close <entity>                   - 01 - Closes a door
++take <item>                      - 01 - Takes an item
+cast <spell> {target}             - 03 - Casts a defensive spell or charm
+throw <item> <direction> {entity} - 02 - Drops item somewhere other than the player's square, or uses item as a projectile
+-drop <item>                      - 01 - Drops item on the player's square
+attack <entity>                   - 03 - Enters combat with NPC
++talk <entity>                    - 01 - Initiates chat with NPC
++sleep                            - 06 - Heals player
++find                             - 04 - Searches area for hidden items
+#esp                              - 04 - Displays minimap
+
+CHAT COMMANDS:
+
++buy <item>                       -  A - Buys item
+sell <item>                       -  A - Sells item
++yes                              -  A - Gives positive response   
++no                               -  A - Gives negative response   
++sarcasm                          -  A - Gives sarcastic response  
++aggresive                        -  A - Gives aggresive response  
++...                              -  A - Gives no response         
+say <chat>                        -  A - Says a line of chat when interacting with chatbot NPC
++exit                             -  A - Leaves chat
++walk <direction> {entity}        - 01 - Leaves chat and moves the character
++sneak <direction> {entity}       - 03 - Leaves chat and stealthily moves the character
++run <direction> {entity}         - 03 - Leaves chat and quickly moves the character
+
+COMBAT COMMANDS:
+
+cast <spell>                      - 03 - Casts a spell
+heavy                             - 03 - Heavy attack
+attack                            - 01 - Attacks
+light                             - 00 - Light attack
+mighty                            - 05 - Mighty attack
+deathblow                         - 15 - Kills enemy
+block                             - 02 - Blocks attack
+special                           - 03 - Performs special attack
+deflect                           - 05 - Blocks attack and deflects some of blow to enemy
+
+META COMMANDS:
+
+help                              -  M - Displays command list
+lookup <item>                     -  M - Gets details on an item
++profile                          -  M - Displays player profile
++inventory                        -  M - Shows the player's inventory
++clear                            -  M - Clears the screen
+
+    

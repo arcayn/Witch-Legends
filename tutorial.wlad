@@ -1,0 +1,74 @@
+COX resStreet
+YST 006
+XST 4
+
+BEGINGAMEGRID
+000 00000000000000000
+001 00000000000000000
+002 000  CDEFGHIJK000
+003 000:MNOPQRSTUV000
+004 000WXYZ1234567000
+005 00089!"£$%^&*(000
+006 000)[];'#,./{}000
+007 00000000000000000
+ENDGAMEGRID
+
+REA starterChest aDTAIFV
+REB soupTrader BPTPHFV
+REC genMarker CPTPIFV
+RED genMarker DPTPIFV
+REE genMarker EPTPIFV
+REF genMarker FPTPIFV
+REG genMarker GPTPIFV
+REH genMarker HPTPIFV
+REI genMarker IPTPIFV
+REJ genMarker JPTPIFV
+REK genMarker KPTPIFV
+RE: genMarker :PTPIFV
+REM genMarker MPTPIFV
+REN genMarker NPTPIFI
+REO genMarker OPTPIFI
+REP genMarker PPTPIFI
+REQ genMarker QPTPIFV
+RER genMarker RPTPIFI
+RES genMarker SPTPIFV
+RET genMarker TPTPIFV
+REU genMarker UPTPIFV
+REV genMarker VPTPIFV
+REW genMarker WPTPIFV
+REX genMarker XPTPIFV
+REY genMarker YPTPIFV
+REZ genMarker ZPTPIFV
+RE1 genMarker 1PTPIFI
+RE2 genMarker 2PTPIFV
+RE3 genMarker 3PTPIFI
+RE4 genMarker 4PTPIFV
+RE5 genMarker 5PTPIFV
+RE6 genMarker 6PTPIFV
+RE7 genMarker 7PTPIFV
+RE8 genMarker 8PTPIFI
+RE9 genMarker 9PTPIFI
+RE! genMarker !PTPIFI
+RE" genMarker "PTPIFV
+RE£ genMarker £PTPIFV
+RE$ genMarker $PTPIFV
+RE% genMarker %PTPIFI
+RE^ genMarker ^PTPIFV
+RE& genMarker &PTPIFV
+RE* genMarker *PTPIFV
+RE( genMarker (PTPIFV
+RE) genMarker a potionPTPIFV
+RE[ genMarker [PTPIFI
+RE] genMarker ]PTPIFI
+RE; genMarker ;PTPIFI
+RE' genMarker 'PTPIFI
+RE# genMarker #PTPIFV
+RE, genMarker ,PTPIFI
+RE. genMarker .PTPIFV
+RE/ genMarker /PTPIFV
+RE{ genMarker {PTPIFV
+RE} genMarker }PTPIFV
+
+BEGINDROPITEMS
+DR 002 5 H 04 04 05
+ENDDROPITEMS

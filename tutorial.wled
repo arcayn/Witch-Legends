@@ -1,0 +1,26 @@
+Type:
+    [D]oor               - A block that can be opened and closed with the `open` command
+	[P]ortal             - An object that teleports the player to another level
+	[G]ateway            - A door that, when opened, teleports the player to another level
+	[S]earchable item    - A container
+	[C]haracter          - An NPC
+	[P]ile of items      - Similar to a container, a group of items on one tile
+	[H]orde of enemies   - A group of NPCs on one tile
+
+Movement:
+    [I]mmobile           - An immobile entity DOES NOT move but DOES turn, no matter what
+	[N]oAI               - An enity with noAI DOES move but DOES NOT turn, no matter what
+	[S]tatic             - A static entity DOES NOT move or turn, no matter what
+	[M]obile             - A mobile entity DOES both move and turn, no matter what
+
+	[C]onditional        - An entity with conditional mobility moves in a specifically defined way
+Stats:
+vit
+know
+hum
+str
+ag
+health
+vigour
+
+ENB PS 

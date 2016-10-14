@@ -1,0 +1,56 @@
+BASE SPELLS:
+Spark
+Ember
+Conciliate
+Antagonize
+Telekenesis (Basic)
+Frostouch
+Sanctuary
+Restore
+Remedy
+Reveal
+Cleanse
+
+DRUIDIC SCROLL:
+Cyclone
+Arthropollurgy
+Zephyr
+
+MORPHOLOGY SCROLL:
+Mimic
+Angelism
+Purge
+
+PROJECTION SCROLL:
+Bolt
+Fireblast
+Winterblast
+Telekenesis (Power)
+
+REDUCTION SCROLL:
+Dissapitate
+
+DOMINANCE SCROLL:
+Hypotize
+Devitalise
+
+SACROSANCT SCROLL:
+Banish
+Rejuvenate
+
+PLANESWALKER SCROLL:
+Planerend
+
+DESOLATION SCROLL:
+Limbo
+
+DEVASTATION SCROLL:
+Raze
+
+MORBID SCROLL:
+Ressurect
+Awaken
+
+SUMMONING SCROLL:
+Summon
+

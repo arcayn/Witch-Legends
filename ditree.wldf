@@ -1,0 +1,79 @@
+
++- Reactions -+
+
+R01 02 01 01 01 01
+R02 02 01 01 01 01
+
++- Dialog Lines -+
+
+T01 woof
+T02 WOOF WOOF %shop%
+
++- Special -+
+
+DEA AHMG YOU HAVE DEFEATED ME!!!!!!!!!!
+NOR woof
+
++- Shop Dialog -+
+
+NMN Come back when you have some money Buddy!
+ABU Good choice!
+NIN I don't have that item in stock...
+NOI IM OUTTA SOUP!!!!!!!! %exit%
+
++- Selllist -+
+
+SELL 04 03 02
+QUAN inf 0 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++- Buylist -+
+
+BUY %subtype%:soup
+
++- Notes -+
+
+001 Tomato Soup
+002 Chicken Soup
+003 Minestrone Soup
+004 Leek and potato Soup
+005 Oxtail Soup
+006 Garlic Soup
+007 Broccoli and Stilton Soup
+008 Mushroom Soup
+009 A Hat 
+010 Pea and Ham soup
+011 Mouldy Soup
+012 Carrot and Coriander Soup
+013 Alphabet Soup
+014 Primordial Soup
+015 Soap Soup
+016 Unidentifiable grey Soup
+017 Generic Chunky Soup
+018 Not-Horse Soup
+019 Haggis Soup
+020 Bird's nest Soup
+021 Limited edition soup flavoured soup
+

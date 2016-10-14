@@ -1,0 +1,58 @@
+﻿
+VER WITCH LEGENDS DEV VERSION 0.27
+
+DE1 A%gender% %race% %class% with %eyes% eyes and %hlength% %hair% hair. From the %cheekbones% cheekbones
+DE2 to the %nose% nose, your skin is %skin% and %tone% %facialhair%. You are %height%,
+DE3 around %specheight%, with a %build% build, and %limbs% %limbdesc% limbs. A %feature% on your
+DE4 arm suggests a %suggestion% background. A sacrosanct icon of clan %clan% can be seen on your 
+DE5 %bodypart%. Your clothes are worn from travelling, but all that is required to show that you are a 
+DE6 force to be reckoned with is your sacrosanct icon of a%icon%, showing that you are a powerful witch.
+
+I00 A leather-bound volume that is worn with ages and filled with parchment pages covered in spidery writing, clearly explaining the knowledge of ancients.
+I01 A shortsword that rusts on its edges and clearly has not been sharpened in many years.
+I02 An oakwood buckler that has a trim of rusting steel and a hardened leather strap on its back.
+I03 A smooth, mysterious sphere, it seems to be able to open but it is not apparent how to open it. The top is black, with yellow stripes, and the bottom is white.
+
+SLE1 It's time to call it a night, you pull your bedding from your pack and carefully lay it down on the floor. Shrugging
+SLE2 your pack off your shoulders, you lie down on the mat, it's been a long day and you fall asleep almost instantly.
+WAKE It's a new day! You feel rejuvenated as you roll up your bedding and place it back in your bag. Gathering your things
+WAKE2 you prepare yourself for the day ahead.
+NOSLEEP You cannot sleep now! Your duty is not done!
+
+001 You take a deep breath and step into the smokey depths of the tavern. A cacophony erupts around your ears, laughing, 
+002 shouting, gambling, drinking, when suddenly a voice shrieks above it all. The crowd falls silent and begins to turn 
+003 towards the door. You are paralysed with fear. The eyes of every single creature in the room are fixed on you. 
+004 "Adventurer!", the shriek cuts the silence like a razor, "I have not seen you before in these parts... Come, and 
+005 tell me your name". Feigning confidence, you stride toward the screaming creature that sits at the end of the room. 
+006 , eh? What an interesting name, wouldn't you say? I know every being who is native to these parts, but I can 
+007 truly say that I have never heard that name uttered in my prescence before." she eases herself out of her 
+008 throne and begins to circle you, inspecting you up and down with her heavy-set eyes, warily you turn your 
+009 head and follow her with your gaze. "Now what is it that you do, traveller?" she inquires of you again.
+010 Affects your ability to perform magic
+011 Affects your ability to search for items and use weapons
+012 Affects your speed and movement
+013 Affects your health
+014 Affects your resistance and melee weapon use
+015  The Paladin, then? A noble knight of the High Court!", the tavern bursts into laughter and a riotous hammering of 
+016 tankards on the wooden tabletops, but this is silenced by a wave of the creature's hand. "This is not a place
+017 for a NOBLE young knight to be straying. So what is your business, paladin?"
+018 "A brawler? We could use someone like you to guard us, isn't that right?", you can hear the sarcasm dripping from
+019 her voice as she speaks, but the laughter of the crowd confirms your suspicion. "Are you here in search of a 
+020 good fight?!"
+021 "A THIEF?!", she screams, "Any decent, law-abiding citizen would report you immediately to the City Watch!"
+022 now her voice takes on a sarcastic, clandestine tone as she adresses the tavern, "But we are not law-abiding
+023 citizens are we now?", the tavern burts out with shouts of agreement, which she stifles, "Now I'm sure I could
+024 find a use for you, but tell me, what is your purpose?"
+025  The Scribe, then? An educated citizen?", she spits on the floor, "intellectuals are not our kin." the crowd erupts
+026 in hissing and shouting, but she silences them with a steely glance. A wide grin spreads across her face, "but
+027 we ~accomodate~ anyone here, don't we? Now, what brings you to this corner of... heaven?", she says, draping
+028 her bloated arm across your shoulders.
+029 "A mystic? Have you seen a vision instructing you to come to this very spot, or another reason?" she asks,
+030 jokingly
+031 "You have something in your possesion that I require, I am prepared to perform any service for you to obtain it"
+032 You reply. "Ah, my jewel?", the creature eases herself back into her throne and contemplates your request for a
+033 moment. "Why yes, there are a few ~small~ odd jobs that need done, I suppose.", the glint in her eye betrays her
+034 sarcasm. "Be here tomorrow morning at dawn and we can begin. Now leave, 
+035 and do not trouble me again before that time". You turn on your heels and walk towards the door, through the
+036 tables of myriad silent, staring creatures. Slamming the heavy, oaken door behind you, you step into the inky
+037 blackness of the night.
